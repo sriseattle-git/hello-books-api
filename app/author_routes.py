@@ -25,6 +25,7 @@ def read_all_authors():
     for author in authors:
         authors_response.append(
             {
+                "id":author.id,
                 "name": author.name
             }
         )
